@@ -1,6 +1,9 @@
 parser:
   babel-eslint
 
+plugins:
+  flowtype
+
 env:
   browser: true
   node: true
@@ -38,3 +41,6 @@ rules:
   class-methods-use-this: 0
   react/prop-types: 0
   no-plusplus: 0
+  no-duplicate-imports: 0
+  flowtype/define-flow-type: 1
+  flowtype/use-flow-type: 1

@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "NODE_ENV=development webpack -d -w",
+    "flow": "flow",
     "build:dev:assets": "NODE_ENV=development webpack -d",
     "build:prd:assets": "NODE_ENV=production webpack -p",
     "serve": "cordova serve",

@@ -43,7 +43,7 @@ $ cordova platforms add android
 # for npm
 $ npm i
 
-#for yarn
+# for yarn
 $ yarn install
 ```
 
